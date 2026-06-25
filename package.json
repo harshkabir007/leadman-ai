@@ -1,0 +1,20 @@
+{
+  "name": "leadman-ai",
+  "version": "1.0.0",
+  "description": "LeadMan AI - AI-Powered Lead Management & Email Tracking System",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && source venv/bin/activate && python manage.py runserver",
+    "build:frontend": "cd frontend && npm run build",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "cd frontend && npm install && cd ../backend && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "django",
+    "nextjs",
+    "ai",
+    "lead-management"
+  ],
+  "author": "",
+  "license": "ISC"
+}
